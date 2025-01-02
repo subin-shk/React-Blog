@@ -10,9 +10,9 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 80%;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 2px solid #cecece;
 }
 .navbar h1 {
   color: #f1356d;
@@ -29,7 +29,7 @@
   color: #f1356d;
 }
 .content {
-  max-width: 600px;
+  max-width: 65%;
   margin: 40px auto;
   padding: 20px;
 }
@@ -47,4 +47,99 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  padding: 30px;
+  text-align: justify;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.create-form {
+  flex: 1.5;
+  border-right: 1px solid #cecece;
+  padding-right: 30px;
+}
+
+.new-blog h2,
+.new-blog p {
+  text-align: left;
+}
+
+.new-blog {
+  flex: 1.5;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 100%; /* Ensure the container respects parent width */
+  overflow: hidden; /* Prevents overflow from affecting layout */
+}
+
+.new-blog .new-blog-body {
+  text-align: justify;
+  word-wrap: break-word; /* Break long words to fit */
+  overflow-wrap: break-word; /* Prevent text overflow */
+  white-space: normal; /* Ensures text wraps */
 }
