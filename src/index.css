@@ -114,7 +114,7 @@
 .create-container {
   display: flex;
   gap: 30px;
-  flex-wrap: wrap; /* Allow items to wrap */
+  flex-wrap: wrap;
 }
 
 .create-form {
@@ -126,6 +126,7 @@
 .new-blog h2,
 .new-blog p {
   text-align: left;
+  margin: 10px;
 }
 
 .new-blog {
@@ -133,13 +134,13 @@
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  max-width: 100%; /* Ensure the container respects parent width */
-  overflow: hidden; /* Prevents overflow from affecting layout */
+  max-width: 100%; 
+  overflow: hidden;
 }
 
 .new-blog .new-blog-body {
   text-align: justify;
-  word-wrap: break-word; /* Break long words to fit */
-  overflow-wrap: break-word; /* Prevent text overflow */
-  white-space: normal; /* Ensures text wraps */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal; 
 }
